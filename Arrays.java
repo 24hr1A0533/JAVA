@@ -30,4 +30,5 @@ class Arrays{
         System.out.println("i am "+name+"and i am "+age+"years old");
         
     }
+    
 }
