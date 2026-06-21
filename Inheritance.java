@@ -4,6 +4,14 @@ class Bike
     {
         System.out.println("GT650");
     }
+      void bike(int a)
+    {
+        System.out.println("num:"+a);
+    }
+      void bike(String bb)
+    {
+        System.out.println("sujuki"+bb);
+    }
 }
 class Car extends Bike
 {
@@ -37,7 +45,9 @@ public class Inheritance extends Car {
         Car d=new Car("Thar",8);
         for (int j = 1; j < 5; j++) 
         {
-        I.bike();   
+        I.bike();  
+        I.bike(2);
+        I.bike("lambogini"); 
         }           
     }
 }
