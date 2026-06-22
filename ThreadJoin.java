@@ -6,12 +6,12 @@ public class ThreadJoin {
     }
     public static void main(String[] args) {
         Runnable obj =() -> {
-            for(int i=0;i<=10000;i++){
+            for(int i=1;i<=10000;i++){
                countt();
             }
         };
          Runnable obj1 =() -> {
-            for(int i=0;i<=10000;i++){
+            for(int i=1;i<=10000;i++){
                 countt();
             }
         };
@@ -28,7 +28,7 @@ public class ThreadJoin {
             
         }
         System.out.println(count);
-        System.out.println("byeeeeee");
+        System.out.println("byeeeee");
     }
     
 }
